@@ -18,7 +18,7 @@
 
 @layer base {
   body {
-    @apply text-small md:text-medium xl:text-large font-medium leading-normal text-black bg-bgColor;
+    @apply text-small md:text-medium xl:text-large font-medium leading-normal text-black;
   }
 
   section {

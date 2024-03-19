@@ -16,8 +16,8 @@ export const Header = () => {
 
   return (
     domLoaded && (
-      <header>
-        <Container className="flex justify-between">
+      <header className="bg-bgColor h-16 flex items-center md:h-28">
+        <Container className="flex justify-between items-center">
           <Logo />
           {isMobile ? <Menu /> : <Navbar />}
         </Container>
