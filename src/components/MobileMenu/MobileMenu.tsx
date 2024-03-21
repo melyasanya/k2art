@@ -15,7 +15,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isMenuOpen }) => {
     >
       <Container className="flex flex-col justify-center h-full overflow-y-auto items-center">
         <Navbar className="flex-col items-center text-white" />
-        <SocialMedia className="w-[20px] h-[20px] fill-white" />
+        <SocialMedia className="w-[40px] h-[40px] fill-white mr-[12px]" />
       </Container>
     </div>
   );
