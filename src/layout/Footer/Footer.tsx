@@ -17,17 +17,18 @@ export const Footer = () => {
 
   return (
     <footer className="bg-bgColor">
-      <Container className="flex py-[20px] items-start justify-between">
-        <div className="flex flex-col gap-5">
+      <Container className="py-[20px] ">
+        <div className="flex items-center justify-between mb-6 md:mb-10">
           <Logo />
-          <Contacts />
+          {!isMobile && <Navbar />}
         </div>
-        {!isMobile && (
-          <div className="flex flex-col items-end gap-5">
-            <Navbar />
-            <SocialMedia className="w-[32px] h-[32px]" />
-          </div>
-        )}
+
+        <div className="flex items-center justify-between">
+          <Contacts />
+          {!isMobile && (
+            <SocialMedia className="w-[32px] h-[32px] xl:w-[44px] xl:h-[44px]" />
+          )}
+        </div>
       </Container>
     </footer>
   );

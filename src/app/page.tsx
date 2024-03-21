@@ -1,3 +1,9 @@
+import { AboutArtist } from "@/sections/AboutArtist/AboutArtsit";
+
 export default function Home() {
-  return <h1>hi</h1>;
+  return (
+    <>
+      <AboutArtist />
+    </>
+  );
 }
