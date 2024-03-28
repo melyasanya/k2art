@@ -32,7 +32,7 @@ export const Menu = () => {
     <>
       <button
         onClick={toggleMenu}
-        className="cursor-pointer p-[10px] xl:pt-0  z-10"
+        className="cursor-pointer p-[10px] xl:pt-0  z-20"
       >
         {isMenuOpen ? (
           <CloseBtn

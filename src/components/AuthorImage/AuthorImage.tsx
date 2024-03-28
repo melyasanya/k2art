@@ -3,7 +3,7 @@ import authorImage from "../../../public/images/depositphotos_274313380-stock-il
 
 export const AuthorImage = () => {
   return (
-    <div className="relative min-w-[200px]">
+    <div className="relative min-w-[140px] md:min-w-[200px] z-1">
       <div className="w-[84px] h-[135px] md:w-[120px] md:h-[193px] rounded-bl-[63px] md:rounded-bl-[90px] bg-black translate-y-[7px] translate-x-[-7px] md:translate-x-[-10px] md:translate-y-[10px] rotate-[-3deg]"></div>
       <Image
         src={authorImage}
